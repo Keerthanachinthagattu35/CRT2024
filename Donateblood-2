@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Donateblood {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a,w;
+        float h;
+        a=s.nextInt();
+        w=s.nextInt();
+        h=s.nextFloat();
+    if(a>18)
+        System.out.println("He or She able to donate blood");
+    else if(w>45)
+         System.out.println("He or She able to donate blood");
+    else if(h>5.5)
+         System.out.println("He or She able to donate blood");
+    else
+         System.out.println("He or She unable to donate blood");
+    }
+}
